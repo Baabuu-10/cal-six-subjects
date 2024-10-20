@@ -1,40 +1,58 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
+    padding: 0;
 }
+
 .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
     text-align: center;
+    color: #333;
 }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
 input {
-    width: 90%;
+    width: 100%;
     padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
+    margin-bottom: 15px;
     border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
+
 button {
     width: 100%;
     padding: 10px;
-    background-color: #7380ec;
-    color: white;
+    background-color: #007bff;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
+
 button:hover {
-    background-color: #5a66d6;
+    background-color: #0056b3;
 }
-.result {
-    margin-top: 20px;
-    font-size: 1.2rem;
+
+#balance, #transferMessage {
+    margin-top: 15px;
+    color: #28a745;
+    text-align: center;
 }
